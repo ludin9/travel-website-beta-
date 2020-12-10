@@ -1,0 +1,37 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.travel-logo {
+  width: 165px;
+  height: 58px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1rem solid;
+  font-weight: 1000;
+}
+.travel-menu {
+  margin: 60px 0px;
+  text-align: center;
+}
+.travel-menu__destination {
+  margin: 0px 10px;
+  text-decoration: none;
+  color: rgb(88, 89, 91);
+  font-size: 16px;
+}
+.travel-menu__destination:active {
+  font-weight: bolder;
+}
+img {
+  margin: 0 5%;
+  width: 90%;
+}
